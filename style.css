@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(to right,
+            #12c2e9, #c471ed, #b82668);
+
+}
+
+input,
+button {
+    padding-left: 18px;
+    box-sizing: border-box;
+    width: 110%;
+    margin: auto;
+    padding: 12px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+}
+
+.form {
+    width: 300px;
+    height: 400px;
+    display: grid;
+    place-content: center;
+
+
+    /* Add a transparency to the background
+       using rgba value */
+    background: rgba(255, 255, 255, 0.1);
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+#d1 {
+    border-radius: 30px;
+    left: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    font-size: 1em;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 85px;
+
+}
+
+#s1 {
+    display: inline;
+  
+}
+
+#s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#s2 a {
+
+    text-decoration: none;
+    color: aquamarine;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#s2 a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+#d1 li a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 400px;
+}
+
+input:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+#fd1 {
+    color: dodgerblue;
+    display: flex;
+
+    width: 50vw;
+    font-size: x-small;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+
+
+
+
+}
+
+#fd1 li a {
+
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+#fd1 li a:hover {
+    color: rgb(255, 255, 255);
+}
+#hed1{
+    text-align :center;
+    color: aliceblue;
+}
+#btn1{
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 20%;
+    margin-top: 15px;
+}
+#ip1{
+    border-radius: 30px;
+    color: rgb(3, 3, 3);
+}
+#ip2{
+    border-radius: 30px;
+}
+ip3{
+    text-align: center
+}

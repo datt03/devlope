@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(to right,
+            #12c2e9, #c471ed, #b82668);
+
+}
+
+.form {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-content: center;
+    
+
+    /* Add a transparency to the background
+       using rgba value */
+    background: rgba(255, 255, 255, 0.1);
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+input,
+button {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px auto;
+    padding: 12px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+}
+
+footer {}
+
+
+#fd1 {
+    color: dodgerblue;
+    display: flex;
+
+    width: 50vw;
+    font-size: x-small;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+
+
+
+}
+
+#fd1 li a {
+
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#fd1 li a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 400px;
+}
+
+input:hover {
+    background-color: aliceblue;
+    color: black;
+}
+#d1 li a:hover {
+    color: rgb(255, 255, 255);
+ 
+
+}
+a{
+    text-decoration: none;
+}
+#hed1{
+    text-align: center;color: aliceblue;
+}
+#ip1{
+    border-radius: 30px;color: rgb(0, 0, 0);
+}
+#ip2{
+    border-radius: 30px;color: rgb(0, 0, 0);
+}
+#btn1{
+    border-radius: 30px;color: rgb(0, 0, 0)
+}
